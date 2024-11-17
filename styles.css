@@ -230,3 +230,63 @@ section {
     font-size: 1rem;
     color: #777;
 }
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and mobile devices (portrait) */
+@media only screen and (max-width: 768px) {
+    .navbar ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/* For mobile devices (portrait) */
+@media only screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form button {
+        font-size: 1rem;
+    }
+}
