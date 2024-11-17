@@ -64,7 +64,7 @@ h2 {
 
 .hero {
     position: relative; /* Ensure the pseudo-element is positioned relative to the container */
-    background: url('img/bg.webp') no-repeat center center/cover;
+    background: url('bg.webp') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
