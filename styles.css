@@ -233,6 +233,65 @@ section {
 
 
 
+
+
+
+/* General Styles */
+
+/* General Styles */
+.partners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.partners-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.partners-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.partner img {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .partners-logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .partners-container {
+        flex-direction: column;
+    }
+
+    .partner {
+        max-width: 100%;
+    }
+}
+
+
+
+
 /* Media Queries for Responsiveness */
 
 /* For tablets and mobile devices (portrait) */
