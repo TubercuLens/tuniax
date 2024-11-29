@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +19,7 @@
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="http://tuberculens.in" target="blank">Tuberculens</a></li>
+                    <li><a href="#contact">Help</a></li>
                     
                 </ul>
             </nav>
@@ -38,7 +39,19 @@
     <section id="about" class="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>At TuNiaX, we leverage AI to transform healthcare through disease detection and personalized medicine. Our mission is to make healthcare accessible, efficient, and innovative.</p>
+            <p>At TuNiaX, we leverage AI to transform healthcare through disease detection and personalized medicine. Our mission is to make healthcare accessible, efficient, and innovative.</p><br>
+            <div style="text-align: left;">
+                <h3 style="color: #00796b;">Papers:</h4>
+                    <h5>
+                        Radu Dragusin, Paula Petcu, Christina Lioma, Birger Larsen, Henrik L Jørgensen, Ingemar Cox, Lars K Hansen, Peter Ingwersen, and Ole Winther, FindZebra: a Search Engine for Rare Diseases, in International Journal of Medical Informatics, IJMI doi:10.1016/j.ijmedinf.2013.01.005 (2013). Link, Preprint arxiv<br>
+                        Radu Dragusin, Paula Petcu, Christina Lioma, Birger Larsen, Henrik L Jørgensen, Ingemar Cox, Lars K Hansen, Peter Ingwersen, and Ole Winther, Specialised tools are needed when searching the web for rare disease diagnoses, Rare Diseases, doi:10.4161/rdis.25001 (2013). Link<br>
+                        Svenstrup, Dan, Henrik L. Jørgensen, and Ole Winther. Rare disease diagnosis, A review of web search, social media and large-scale data-mining approaches, Rare Diseases 3.1 (2015): e1083145. Article link<br>
+                        Valentin Liévin, Christoffer Egeberg Hother, Ole Winther, Can large language models reason about medical questions?, (2022). Preprint arxiv<br>
+                        Valentin Liévin, Andreas Geert Motzfeldt, Ida Riis Jensen, Ole Winther, Variational Open-Domain Question Answering, ICML (2023). Preprint arxiv, Link<br>
+                        Valentin Liévin, Jonas Meinertz Hansen, Allan Lund, Deborah Elstein, Mads Emil Matthiesen, Kaisa Elomaa, Kaja Zarakowska, Iris Himmelhan, Jaco Botha, Hanne Borgeskov, Ole Winther, FindZebra online search delving into rare disease case reports using natural language processing, PLOS Digital Health (2023). Link<br>
+                    </h5>
+            
+            </div>
         </div>
     </section>
 
@@ -170,6 +183,46 @@
             <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+    </div>
+</section>
+
+
+
+
+<!-- Help Section -->
+<section id="help" class="about">
+    <div class="container">
+        <div style="text-align: left;">
+            <h2>Help</h2>
+
+
+        <p>FindZebra is a state-of-the-art diagnostic support tool featuring:<br>
+
+            <b>FindZebra Summary </b>uses FindZebra search and a large language model to give a concise answer to the user query. Get a summary using the button just above the search results.<br>
+            <b>Gene view.</b> After an initial search one may choose "gene" in the "Group by" menu to get genes associated with the query. Also, a sorted list of relevant genes figuring in the top search results can be downloaded.<br>
+            <b>Keyword highlighting.</b> The keywords most relevant to the query are highlighted in the text.<br>
+            <b>Flexible API.</b> By using our API you can make custom queries that matches your specific requirements. For example, you can take advantage of our advanced algorithms for gene and symptom extraction in order to quickly generate a list of known genes and symptoms associated with a given search string or disease.<br>
+
+            <br>
+            <b style="color: #00796b;" >Inquire about our API if you interested in integrating FindZebra: contact@tuniax.com</b></p>
+        <h2>Frequently Asked Questions</h2>
+        <h4>What text and keywords should I input?</h4>
+        <p>Enter a medical history in short sentences and keyword form. Comma separate each distinct finding.</p>
+        <h4>What does the order of the search results mean?</h4>
+        <p>FindZebra ranks results with most likely results in the top of the page. However, we recommend users to always assess all 20 results.</p>
+        <p>Tip: Some search results have images that can help you quickly judge the match of a disease.</p>            
+            <h4>What search method should I use?</h4>
+            It is recommended to try more than one search. Combining different parts of the medical history allow you to focus in on certain dominant characteristics.
+            Tip: Links the to article on the disease are listed under the disease name.
+            
+            <h4>What can I do with the search results?</h4>
+            FindZebra is a tool to help find medical information and hypotheses about rare disease diagnosis. FindZebra is intended as an aid for healthcare professionals and for patients who consult with their physician.
+            Tip: Genes and market authorized pharmaceuticals, when available, are listed under the disease name.
+            
+            <h4>Why no consent box?</h4>
+            We use cookieless tracking without GDPR consent. In brief, the clientID used in the cookie is generated by us. It is updated every 5 days thereby disabling Google Analytics' long term tracking.</p>
+        
+        </div>
     </div>
 </section>
 
