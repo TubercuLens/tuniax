@@ -235,6 +235,8 @@ section {
 .card img {
     width: 30vh;
     height: auto;
+    border-radius: 2vh;
+
 
 }
 
