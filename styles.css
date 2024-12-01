@@ -66,7 +66,7 @@ h2 {
     position: relative; /* Ensure the pseudo-element is positioned relative to the container */
     background: url('bg1.webp') no-repeat center center/cover;
     color: #fff;
-    height: 100vh;
+    height: 86.6vh;
     display: flex;
     justify-content: center;
     align-items: center;
