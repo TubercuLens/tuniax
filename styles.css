@@ -44,7 +44,7 @@ h2 {
   .logo img {
     width: 60px; /* Adjust as needed */
     height: 40px;
-    max-width: 100%;
+
     vertical-align: middle;
     display: block; /* Prevents extra space caused by inline elements */
     border: solid 0.1px #d0a933;
