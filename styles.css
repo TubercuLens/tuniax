@@ -27,13 +27,45 @@ h2 {
     background: #004d40;
     color: #fff;
     padding: 1rem 0;
+    margin: 0;
+    padding: 0;
 }
 
+  
+  /* Ensure the logo container doesn't add extra space */
+  .logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 0; /* Prevents extra space caused by inline-block */
+  }
+  
+  /* Ensure the logo itself doesn't add extra space */
+  .logo img {
+    width: 60px; /* Adjust as needed */
+    height: 40px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: block; /* Prevents extra space caused by inline elements */
+    border: solid 0.1px #d0a933;
+    border-radius: 5px;
+  }
+
+/* Header Styles */
+/*
+.header {
+    background: #004d40;
+    color: #fff;
+    padding: 1rem 0;
+}
+*?
+
+/*
 .header .logo {
     float: left;
     font-size: 1.5rem;
     font-weight: bold;
-}
+} */
 
 .nav-links {
     float: right;
