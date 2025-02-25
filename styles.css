@@ -44,28 +44,19 @@ h2 {
   .logo img {
     width: 60px; /* Adjust as needed */
     height: 40px;
-
-    vertical-align: middle;
+    max-width: 100%;
+    vertical-align: bottom;
     display: block; /* Prevents extra space caused by inline elements */
     border: solid 0.1px #d0a933;
     border-radius: 5px;
   }
 
-/* Header Styles */
-/*
-.header {
-    background: #004d40;
-    color: #fff;
-    padding: 1rem 0;
-}
-*?
+  .logo :hover {
+    zoom: 2%;
 
-/*
-.header .logo {
-    float: left;
-    font-size: 1.5rem;
-    font-weight: bold;
-} */
+    cursor: pointer;
+  }
+
 
 .nav-links {
     float: right;
@@ -75,11 +66,12 @@ h2 {
 .nav-links li {
     display: inline;
     margin: 0 1rem;
+    padding: 0;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #d0a933;
 }
 
 /* Hero Section */
@@ -221,6 +213,7 @@ section {
     margin-bottom: 2rem;
 }
 
+
 .team-members {
     display: flex;
     justify-content: center;
@@ -229,6 +222,7 @@ section {
 }
 
 .team-card {
+
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -254,7 +248,7 @@ section {
 
 .team-card h3 {
     font-size: 1.2rem;
-    color: #333;
+    color: #d0a933;
     margin-bottom: 0.5rem;
 }
 
