@@ -35,28 +35,14 @@ h2 {
   /* Ensure the logo container doesn't add extra space */
   .logo {
     display: inline-block;
-    margin: 0;
-    padding: 0;
+    margin: 30px;
+    padding: 10px;
     line-height: 0; /* Prevents extra space caused by inline-block */
   }
   
-  /* Ensure the logo itself doesn't add extra space */
-  .logo img {
-    width: 60px; /* Adjust as needed */
-    height: 40px;
-    max-width: 100%;
-    vertical-align: bottom;
-    display: block; /* Prevents extra space caused by inline elements */
-    border: solid 0.1px #d0a933;
-    border-radius: 5px;
-  }
-
-  .logo :hover {
-    zoom: 2%;
-
-    cursor: pointer;
-  }
-
+ .logo h1{
+    font: ITC Benguait;
+ }
 
 .nav-links {
     float: right;
